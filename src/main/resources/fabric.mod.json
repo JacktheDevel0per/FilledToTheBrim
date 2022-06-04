@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "fttb",
+  "version": "${version}",
+
+  "name": "Filled To The Brim",
+  "description": "You can now put Empty Shulker Boxes in Shulker Boxes",
+  "authors": [
+    "Jack"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/JacktheDevel0per"
+  },
+
+  "license": "MIT",
+  "icon": "assets/fttb/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.Jack.FilledToTheBrim.FilledToTheBrim"
+    ]
+  },
+  "mixins": [
+    "fttb.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "minecraft": "1.18.x"
+  },
+  "suggests": {
+    "Carbon":"*"
+  }
+}
