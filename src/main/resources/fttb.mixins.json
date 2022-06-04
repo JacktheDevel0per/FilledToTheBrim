@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.Jack.FilledToTheBrim.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ShulkerBoxSlotMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
